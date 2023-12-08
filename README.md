@@ -21,6 +21,14 @@ or
 npx voyager-verify
 ```
 
+If you don`t have permissions, do this
+
+```
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+```
+
 ## Usage
 
 1. Run `voyager-verify` in you project's root folder and follow the instructions
